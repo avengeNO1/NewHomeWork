@@ -12,6 +12,13 @@ public class HomeWork01 {
                 return n1 + n2;
             }
         },2,4);
+
+        cellphone.testWork(new Calculator() {
+            @Override
+            public double work(double n1, double n2) {
+                return n1 * n2;
+            }
+        },2,4);
     }
 }
 /*
